@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header, footer{
+	background-color: #F9F9F9;
+}
+main {
+	background-color: #EEEEEE;
+}
+header, footer, main{
+	padding-left: 10%;
+	padding-right: 10%;
+	overflow: hidden;
+}
+
+header > #comm {
+	font: 40px Arial;
+	margin-top: 110px;
+}
+
+.info{
+	font-size: 14px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.logo {
+	float: right;
+	padding: 20px;
+}
+
+.note{
+	margin:15px 0px 25px 0px;
+}
+.name{
+	font-weight: 700;
+}
+.time{
+	font-size: 12px;
+	margin-left: 35px;
+}
+.date{
+	font-size: 12px;
+	margin-left: 10px;
+}
+.noteMess{
+	margin:10px 0px 0px 0px;
+}
+
+#writeNoteStr{
+	font: 25px Arial;
+	margin-top: 110px;
+	margin:35px 0px 20px 0px;
+}
+
+form {
+	width: 500px;
+}
+
+#writeNote > input{
+	border: none;
+}
+
+#writeNote > textarea, #writeNote > input[type="submit"]{
+	background: inherit;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+#writeNote > textarea, #writeNote > input{
+	width: 100%;
+	padding: 15px;
+	box-sizing: border-box;
+	margin:10px 0px 10px 0px;
+	outline: none;
+}
+#writeNote > input[type="submit"]{
+	font-size: 17px;
+	width: 150px;
+	float: right;
+}
+
+.footerlogo {
+	float: left;
+	margin:15px 35px 10px 0px;
+}
+.copyright{
+	font-size: 12px;
+}
+.info{
+	margin-top: 35px;
+}

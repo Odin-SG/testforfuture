@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Гостевой журнал</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<img src="img/logo.png" alt="Логотип" width="170" height="180">
+		</div>
+		<div class="info">
+			<p>Телефон: (499) 340-94-71</p>
+			<p>Email: info@future-group.ru</p>
+		</div>
+		<p id="comm">Комментарии</p>
+	</header>
+<!-- _______________________________________________ -->
+	<main>
+		<div class="main">
+			<div class="note">
+				<span class="name">Савва</span>
+				<span class="time">18:05</span>
+				<span class="date">07.02.2014</span>
+				<p class="noteMess">Спасибо за Ваше тестовое задание. Оно, действительно, изумительное</p>
+			</div>
+			<div class="note">
+				<span class="name">Савва</span>
+				<span class="time">18:05</span>
+				<span class="date">07.02.2014</span>
+				<p class="noteMess">Спасибо за Ваше тестовое задание. Оно, действительно, изумительное</p>
+			</div>
+		</div>
+		<form action="node.php" method="POST" id="writeNote">
+			<p id="writeNoteStr">Оставить комментарий</p>
+			<p>Ваше имя</p>
+			<input type="text" name="myName">
+			<p>Ваш комментарий</p>
+			<textarea name="myNote" id="myNote" cols="30" rows="10"></textarea>
+			<input type="submit" value="Отправить">
+		</form>
+	</main>
+<!-- _______________________________________________ -->
+	<footer>
+		<div class="footerlogo">
+			<img src="img/logo.png" alt="Логотип" width="110" height="115">
+		</div>
+		<div class="info">
+			<p>Телефон: (499) 340-94-71</p>
+			<p>Email: info@future-group.ru</p>
+			<p>Адрес: 116088 Москва, улю 2-я Машиностроения д.7 стр.1</p>
+			<br><br>
+			<p class="copyright">© 2010-2014 Future. Все права защищены</p>
+		</div>
+	</footer>
+	
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/ajax.js"></script>
+</html>
